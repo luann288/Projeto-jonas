@@ -1,0 +1,139 @@
+
+/* Estilo Geral */
+body {
+    margin: 0;
+    font-family: serif;
+  }
+  
+  .home-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Cabeçalho */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 30px;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Banner Principal */
+  .banner {
+    text-align: center;
+   
+    color: white;
+    padding: 50px 20px;
+    margin-top: 5px;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+  }
+  
+  .banner p {
+    font-size: 18px;
+    margin: 15px 0;
+  }
+  
+  .btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Produtos em Destaque */
+  .featured-products {
+    padding: 40px 20px;
+    text-align: center;
+    
+  }
+  
+  .products-grid {
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 50px;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .product-card p {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    background-color: #ffffff;
+    color: #007bff;
+    text-align:center;
+    padding: 14px 0;
+    position:static;
+    bottom: 0;
+    width: 100%;
+    font-size: 17px;
+  }
+  
+  .footer .highlight {
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .texto {
+    text-align:center;
+    margin: 5%;
+    font-size: 17px;
+
+  }
+  
+  
